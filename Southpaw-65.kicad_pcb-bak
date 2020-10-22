@@ -431,7 +431,7 @@
   )
 
   (module Package_DIP:DIP-40_W15.24mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 5F925FCA)
-    (at -306.451 -11.557)
+    (at -312.719775 82.65)
     (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
     (path /5F901AE8)
