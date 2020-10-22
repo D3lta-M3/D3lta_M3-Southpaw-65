@@ -1978,7 +1978,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CD58)
-    (at -246.506249 164.980001)
+    (at 430.2125 71.4375)
     (path /5FAD7B47)
     (fp_text reference MX2-19 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2014,7 +2014,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2.25U (layer F.Cu) (tedit 5A9F4181) (tstamp 5F91CD3F)
-    (at -218.499999 43.140001)
+    (at 399.25625 71.4375)
     (path /5FAD7B32)
     (fp_text reference MX2-18 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2054,7 +2054,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CD22)
-    (at -266.706249 176.340001)
+    (at 368.3 71.4375)
     (path /5F9130E5)
     (fp_text reference MX2-15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2090,7 +2090,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CD09)
-    (at -94.106249 42.500001)
+    (at 349.25 71.4375)
     (path /5FAD7B1D)
     (fp_text reference MX2-14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2126,7 +2126,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CCF0)
-    (at -226.306249 164.980001)
+    (at 330.2 71.4375)
     (path /5FAD7B08)
     (fp_text reference MX2-13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2162,7 +2162,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CCD7)
-    (at -246.506249 185.180001)
+    (at 311.15 71.4375)
     (path /5FAD7AF3)
     (fp_text reference MX2-12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2198,7 +2198,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CCBE)
-    (at -125.796249 62.700001)
+    (at 292.1 71.4375)
     (path /5FAD7ADE)
     (fp_text reference MX2-11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2234,7 +2234,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CCA5)
-    (at -8.546249 22.300001)
+    (at 273.05 71.4375)
     (path /5FAD7AC9)
     (fp_text reference MX2-10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2270,7 +2270,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CC8C)
-    (at -69.146249 22.300001)
+    (at 254 71.4375)
     (path /5FAD7AB4)
     (fp_text reference MX2-9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2306,7 +2306,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CC73)
-    (at -105.596249 62.700001)
+    (at 234.95 71.4375)
     (path /5FAD7A9F)
     (fp_text reference MX2-8 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2342,7 +2342,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CC5A)
-    (at -115.126249 82.900001)
+    (at 215.9 71.4375)
     (path /5FAD7A8A)
     (fp_text reference MX2-7 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2378,7 +2378,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CC41)
-    (at -135.326249 103.100001)
+    (at 196.85 71.4375)
     (path /5FAD7A60)
     (fp_text reference MX2-6 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2414,7 +2414,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 5A9F3A9A) (tstamp 5F91CC28)
-    (at -156.186249 123.940001)
+    (at 177.8 71.4375)
     (path /5FAD7A4B)
     (fp_text reference MX2-5 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2450,7 +2450,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.75U (layer F.Cu) (tedit 5A9F3CCD) (tstamp 5F91CC0F)
-    (at -299.962499 105.020001)
+    (at 151.60625 71.4375)
     (path /5FAD7A21)
     (fp_text reference MX2-4 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
