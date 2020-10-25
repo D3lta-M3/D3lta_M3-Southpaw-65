@@ -323,8 +323,6 @@ F 3 "" H 4475 1425 60  0001 C CNN
 	1    5100 1450
 	1    0    0    -1  
 $EndComp
-Text Notes 5250 5000 0    50   ~ 0
-Reset
 Text Notes 5200 6100 0    50   ~ 0
 Crystal
 Text Notes 1750 5000 0    50   ~ 0
@@ -1207,8 +1205,6 @@ F 3 "~" V 10450 1700 50  0001 C CNN
 	1    10450 1700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10000 1600 9850 1600
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0-8
 U 1 1 5FA4EC7D
@@ -2890,8 +2886,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 $EndComp
 NoConn ~ 2000 4450
 NoConn ~ 2000 4350
-NoConn ~ 2000 4250
-NoConn ~ 2000 4150
 NoConn ~ 2000 3850
 Wire Wire Line
 	14950 2050 14950 2700
@@ -3207,4 +3201,16 @@ Wire Wire Line
 Wire Wire Line
 	5300 6800 5300 6850
 Connection ~ 5300 6800
+Wire Wire Line
+	5250 2050 5250 1400
+Connection ~ 5250 2050
+Connection ~ 5250 1400
+Wire Wire Line
+	9800 1600 10000 1600
+Text Notes 5250 5000 0    50   ~ 0
+Reset
+Text GLabel 2000 4150 2    50   Input ~ 0
+REA
+Text GLabel 2000 4250 2    50   Input ~ 0
+REB
 $EndSCHEMATC

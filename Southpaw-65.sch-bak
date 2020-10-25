@@ -1207,8 +1207,6 @@ F 3 "~" V 10450 1700 50  0001 C CNN
 	1    10450 1700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10000 1600 9850 1600
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0-8
 U 1 1 5FA4EC7D
@@ -3185,7 +3183,7 @@ U 1 1 5FB4468B
 P 5300 6400
 F 0 "Y1" V 5254 6531 50  0000 L CNN
 F 1 "16MHz" V 5345 6531 50  0000 L CNN
-F 2 "" H 5300 6400 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-U_Horizontal" H 5300 6400 50  0001 C CNN
 F 3 "~" H 5300 6400 50  0001 C CNN
 	1    5300 6400
 	0    1    1    0   
@@ -3207,4 +3205,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 6800 5300 6850
 Connection ~ 5300 6800
+Wire Wire Line
+	5250 2050 5250 1400
+Connection ~ 5250 2050
+Connection ~ 5250 1400
+Wire Wire Line
+	9800 1600 10000 1600
 $EndSCHEMATC
