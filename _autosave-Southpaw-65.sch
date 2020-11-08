@@ -2741,55 +2741,55 @@ Wire Wire Line
 Connection ~ 17400 3350
 Wire Wire Line
 	17400 3350 17400 4000
-Text GLabel 2000 1050 2    50   Input ~ 0
+Text GLabel 3050 1050 2    50   Input ~ 0
 ROW0
-Text GLabel 2000 1150 2    50   Input ~ 0
+Text GLabel 3050 1150 2    50   Input ~ 0
 ROW1
-Text GLabel 2000 1250 2    50   Input ~ 0
+Text GLabel 3050 1250 2    50   Input ~ 0
 ROW2
-Text GLabel 2000 1350 2    50   Input ~ 0
+Text GLabel 3050 1350 2    50   Input ~ 0
 ROW3
-Text GLabel 2000 1450 2    50   Input ~ 0
+Text GLabel 3050 1450 2    50   Input ~ 0
 ROW4
-Text GLabel 2000 1550 2    50   Input ~ 0
+Text GLabel 3050 1550 2    50   Input ~ 0
 COL0
-Text GLabel 2000 1650 2    50   Input ~ 0
+Text GLabel 3050 1650 2    50   Input ~ 0
 COL1
-Text GLabel 2000 1750 2    50   Input ~ 0
+Text GLabel 3050 1750 2    50   Input ~ 0
 COL2
-Text GLabel 2000 1950 2    50   Input ~ 0
+Text GLabel 3050 1950 2    50   Input ~ 0
 COL3
-Text GLabel 2000 2050 2    50   Input ~ 0
+Text GLabel 3050 2050 2    50   Input ~ 0
 COL4
-Text GLabel 2000 2150 2    50   Input ~ 0
+Text GLabel 3050 2150 2    50   Input ~ 0
 COL5
-Text GLabel 2000 2250 2    50   Input ~ 0
+Text GLabel 3050 2250 2    50   Input ~ 0
 COL6
-Text GLabel 2000 2350 2    50   Input ~ 0
+Text GLabel 3050 2350 2    50   Input ~ 0
 COL7
-Text GLabel 2000 2450 2    50   Input ~ 0
+Text GLabel 3050 2450 2    50   Input ~ 0
 COL8
-Text GLabel 2000 2550 2    50   Input ~ 0
+Text GLabel 3050 2550 2    50   Input ~ 0
 COL9
-Text GLabel 2000 2650 2    50   Input ~ 0
+Text GLabel 3050 2650 2    50   Input ~ 0
 COL10
-Text GLabel 2000 2850 2    50   Input ~ 0
+Text GLabel 3050 2850 2    50   Input ~ 0
 COL11
-Text GLabel 2000 2950 2    50   Input ~ 0
+Text GLabel 3050 2950 2    50   Input ~ 0
 COL12
-Text GLabel 2000 3050 2    50   Input ~ 0
+Text GLabel 3050 3050 2    50   Input ~ 0
 COL13
-Text GLabel 2000 3150 2    50   Input ~ 0
+Text GLabel 3050 3150 2    50   Input ~ 0
 COL14
-Text GLabel 2000 3250 2    50   Input ~ 0
+Text GLabel 3050 3250 2    50   Input ~ 0
 COL15
-Text GLabel 2000 3350 2    50   Input ~ 0
+Text GLabel 3050 3350 2    50   Input ~ 0
 COL16
-Text GLabel 2000 3450 2    50   Input ~ 0
+Text GLabel 3050 3450 2    50   Input ~ 0
 COL17
-Text GLabel 2000 3550 2    50   Input ~ 0
+Text GLabel 3050 3550 2    50   Input ~ 0
 COL18
-Text GLabel 2000 3750 2    50   Input ~ 0
+Text GLabel 3050 3750 2    50   Input ~ 0
 COL19
 $Comp
 L power:+5V #PWR0101
