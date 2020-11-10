@@ -2741,55 +2741,53 @@ Wire Wire Line
 Connection ~ 17400 3350
 Wire Wire Line
 	17400 3350 17400 4000
-Text GLabel 2000 1050 2    50   Input ~ 0
+Text GLabel 2000 2350 2    50   Input ~ 0
 ROW0
-Text GLabel 2000 1150 2    50   Input ~ 0
+Text GLabel 2000 2450 2    50   Input ~ 0
 ROW1
-Text GLabel 2000 1250 2    50   Input ~ 0
+Text GLabel 2000 2550 2    50   Input ~ 0
 ROW2
-Text GLabel 2000 1350 2    50   Input ~ 0
+Text GLabel 2000 2650 2    50   Input ~ 0
 ROW3
-Text GLabel 2000 1450 2    50   Input ~ 0
-ROW4
-Text GLabel 2000 1550 2    50   Input ~ 0
+Text GLabel 2000 2250 2    50   Input ~ 0
 COL0
-Text GLabel 2000 1650 2    50   Input ~ 0
+Text GLabel 2000 2150 2    50   Input ~ 0
 COL1
-Text GLabel 2000 1750 2    50   Input ~ 0
+Text GLabel 2000 2050 2    50   Input ~ 0
 COL2
 Text GLabel 2000 1950 2    50   Input ~ 0
 COL3
-Text GLabel 2000 2050 2    50   Input ~ 0
+Text GLabel 2000 1150 2    50   Input ~ 0
 COL4
-Text GLabel 2000 2150 2    50   Input ~ 0
+Text GLabel 2000 1050 2    50   Input ~ 0
 COL5
-Text GLabel 2000 2250 2    50   Input ~ 0
+Text GLabel 3050 2250 2    50   Input ~ 0
 COL6
-Text GLabel 2000 2350 2    50   Input ~ 0
+Text GLabel 3050 2350 2    50   Input ~ 0
 COL7
-Text GLabel 2000 2450 2    50   Input ~ 0
+Text GLabel 3050 2450 2    50   Input ~ 0
 COL8
-Text GLabel 2000 2550 2    50   Input ~ 0
+Text GLabel 3050 2550 2    50   Input ~ 0
 COL9
-Text GLabel 2000 2650 2    50   Input ~ 0
+Text GLabel 3050 2650 2    50   Input ~ 0
 COL10
-Text GLabel 2000 2850 2    50   Input ~ 0
+Text GLabel 3050 2850 2    50   Input ~ 0
 COL11
-Text GLabel 2000 2950 2    50   Input ~ 0
+Text GLabel 3050 2950 2    50   Input ~ 0
 COL12
-Text GLabel 2000 3050 2    50   Input ~ 0
+Text GLabel 3050 3050 2    50   Input ~ 0
 COL13
-Text GLabel 2000 3150 2    50   Input ~ 0
+Text GLabel 3050 3150 2    50   Input ~ 0
 COL14
-Text GLabel 2000 3250 2    50   Input ~ 0
+Text GLabel 3050 3250 2    50   Input ~ 0
 COL15
-Text GLabel 2000 3350 2    50   Input ~ 0
+Text GLabel 3050 3350 2    50   Input ~ 0
 COL16
-Text GLabel 2000 3450 2    50   Input ~ 0
+Text GLabel 3050 3450 2    50   Input ~ 0
 COL17
-Text GLabel 2000 3550 2    50   Input ~ 0
+Text GLabel 3050 3550 2    50   Input ~ 0
 COL18
-Text GLabel 2000 3750 2    50   Input ~ 0
+Text GLabel 3050 3750 2    50   Input ~ 0
 COL19
 $Comp
 L power:+5V #PWR0101
@@ -2806,7 +2804,6 @@ Wire Wire Line
 	1500 750  1400 750 
 Wire Wire Line
 	1400 750  1400 700 
-Connection ~ 1400 750 
 $Comp
 L power:GND #PWR0110
 U 1 1 5F94BD67
@@ -2860,20 +2857,6 @@ Wire Wire Line
 	2500 3950 2800 3950
 Wire Wire Line
 	2800 4050 2700 4050
-$Comp
-L MCU_Microchip_ATmega:ATmega32A-PU U1
-U 1 1 5F901AE8
-P 1400 2750
-F 0 "U1" H 1400 661 50  0000 C CNN
-F 1 "ATmega32A-PU" H 1400 570 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 1400 2750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 1400 2750 50  0001 C CNN
-	1    1400 2750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2000 4450
-NoConn ~ 2000 4350
-NoConn ~ 2000 3850
 Wire Wire Line
 	14950 2050 14950 2700
 $Comp
@@ -3324,4 +3307,18 @@ Wire Wire Line
 Connection ~ 16200 1250
 Wire Wire Line
 	16200 1250 16200 1400
+Text GLabel 2000 3750 2    50   Input ~ 0
+ROW4
+Connection ~ 1400 750 
+$Comp
+L MCU_Microchip_ATmega:ATmega32A-PU U1
+U 1 1 5F901AE8
+P 1400 2750
+F 0 "U1" H 1400 661 50  0000 C CNN
+F 1 "ATmega32A-PU" H 1400 570 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 1400 2750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 1400 2750 50  0001 C CNN
+	1    1400 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
