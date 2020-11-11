@@ -2775,7 +2775,7 @@ Text GLabel 2000 1350 2    50   Input ~ 0
 COL13
 Text GLabel 2000 1250 2    50   Input ~ 0
 COL14
-Text GLabel 3050 3250 2    50   Input ~ 0
+Text GLabel 2000 3050 2    50   Input ~ 0
 COL15
 Text GLabel 2000 3150 2    50   Input ~ 0
 COL16
@@ -3319,6 +3319,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontr
 $EndComp
 Text GLabel 2000 3550 2    50   Input ~ 0
 COL7
-Text GLabel 3050 2250 2    50   Input ~ 0
+Text GLabel 2000 3450 2    50   Input ~ 0
 COL6
 $EndSCHEMATC
