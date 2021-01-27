@@ -994,7 +994,7 @@ U 1 1 5FB1E680
 P 8200 4050
 F 0 "MX4-4" H 8233 4273 60  0000 C CNN
 F 1 "MX-NoLED" H 8233 4199 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U" H 7575 4025 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.25U" H 7575 4025 60  0001 C CNN
 F 3 "" H 7575 4025 60  0001 C CNN
 	1    8200 4050
 	1    0    0    -1  
@@ -1018,7 +1018,7 @@ U 1 1 5FB1E695
 P 8800 4050
 F 0 "MX4-5" H 8833 4273 60  0000 C CNN
 F 1 "MX-NoLED" H 8833 4199 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U" H 8175 4025 60  0001 C CNN
+F 2 "MX_Only:MXOnly-1.25U" H 8175 4025 60  0001 C CNN
 F 3 "" H 8175 4025 60  0001 C CNN
 	1    8800 4050
 	1    0    0    -1  
@@ -3192,94 +3192,6 @@ Wire Wire Line
 	16800 1400 16800 2050
 Connection ~ 16800 1400
 Connection ~ 16800 2050
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5F9978E5
-P 6550 5000
-F 0 "H1" H 6650 5046 50  0000 L CNN
-F 1 "MountingHole" H 6650 4955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6550 5000 50  0001 C CNN
-F 3 "~" H 6550 5000 50  0001 C CNN
-	1    6550 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5F999F3C
-P 6550 5350
-F 0 "H2" H 6650 5396 50  0000 L CNN
-F 1 "MountingHole" H 6650 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6550 5350 50  0001 C CNN
-F 3 "~" H 6550 5350 50  0001 C CNN
-	1    6550 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5F9B455A
-P 7500 5000
-F 0 "H3" H 7600 5046 50  0000 L CNN
-F 1 "MountingHole" H 7600 4955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 5000 50  0001 C CNN
-F 3 "~" H 7500 5000 50  0001 C CNN
-	1    7500 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5F9B4564
-P 7500 5350
-F 0 "H4" H 7600 5396 50  0000 L CNN
-F 1 "MountingHole" H 7600 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 5350 50  0001 C CNN
-F 3 "~" H 7500 5350 50  0001 C CNN
-	1    7500 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5F9CEEB3
-P 8400 5000
-F 0 "H5" H 8500 5046 50  0000 L CNN
-F 1 "MountingHole" H 8500 4955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8400 5000 50  0001 C CNN
-F 3 "~" H 8400 5000 50  0001 C CNN
-	1    8400 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5F9CEEBD
-P 8400 5350
-F 0 "H6" H 8500 5396 50  0000 L CNN
-F 1 "MountingHole" H 8500 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8400 5350 50  0001 C CNN
-F 3 "~" H 8400 5350 50  0001 C CNN
-	1    8400 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5F9CEEC7
-P 9350 5000
-F 0 "H7" H 9450 5046 50  0000 L CNN
-F 1 "MountingHole" H 9450 4955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9350 5000 50  0001 C CNN
-F 3 "~" H 9350 5000 50  0001 C CNN
-	1    9350 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 5F9CEED1
-P 9350 5350
-F 0 "H8" H 9450 5396 50  0000 L CNN
-F 1 "MountingHole" H 9450 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9350 5350 50  0001 C CNN
-F 3 "~" H 9350 5350 50  0001 C CNN
-	1    9350 5350
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0-17B1
 U 1 1 5FA933E2
