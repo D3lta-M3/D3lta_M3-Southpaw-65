@@ -228,18 +228,18 @@ $EndComp
 $Comp
 L Device:R_Small R6
 U 1 1 5F8CAC0E
-P 3300 5700
-F 0 "R6" V 3104 5700 50  0000 C CNN
-F 1 "5k1" V 3195 5700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 5700 50  0001 C CNN
-F 3 "~" H 3300 5700 50  0001 C CNN
-	1    3300 5700
+P 3300 6500
+F 0 "R6" V 3104 6500 50  0000 C CNN
+F 1 "5k1" V 3195 6500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3300 6500 50  0001 C CNN
+F 3 "~" H 3300 6500 50  0001 C CNN
+	1    3300 6500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2400 5600 2650 5600
 Wire Wire Line
-	2400 5700 3200 5700
+	2400 6500 3200 6500
 $Comp
 L Device:C_Small C8
 U 1 1 5F8CD539
@@ -268,21 +268,18 @@ Connection ~ 2400 5900
 $Comp
 L power:GND #PWR0108
 U 1 1 5F8DAB62
-P 3500 5700
-F 0 "#PWR0108" H 3500 5450 50  0001 C CNN
-F 1 "GND" H 3505 5527 50  0000 C CNN
-F 2 "" H 3500 5700 50  0001 C CNN
-F 3 "" H 3500 5700 50  0001 C CNN
-	1    3500 5700
+P 3500 6500
+F 0 "#PWR0108" H 3500 6250 50  0001 C CNN
+F 1 "GND" H 3505 6327 50  0000 C CNN
+F 2 "" H 3500 6500 50  0001 C CNN
+F 3 "" H 3500 6500 50  0001 C CNN
+	1    3500 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2850 5600 3500 5600
 Wire Wire Line
-	3500 5600 3500 5700
-Wire Wire Line
-	3400 5700 3500 5700
-Connection ~ 3500 5700
+	3400 6500 3500 6500
 $Comp
 L power:+5V #PWR0109
 U 1 1 5F8DDCD5
@@ -3171,10 +3168,6 @@ Wire Wire Line
 	9800 1600 10000 1600
 Text Notes 5250 5000 0    50   ~ 0
 Reset
-Text GLabel 2000 2950 2    50   Input ~ 0
-RE-1A
-Text GLabel 2000 4450 2    50   Input ~ 0
-RE-1B
 Wire Wire Line
 	16800 2050 16800 2700
 $Comp
@@ -3288,126 +3281,9 @@ Wire Wire Line
 Connection ~ 5250 1900
 Wire Wire Line
 	5250 1900 5250 1400
-$Comp
-L Device:Rotary_Encoder SW2
-U 1 1 5FAEB0EF
-P 8000 6200
-F 0 "SW2" H 8230 6246 50  0000 L CNN
-F 1 "Rotary_Encoder" H 8230 6155 50  0000 L CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm" H 7850 6360 50  0001 C CNN
-F 3 "~" H 8000 6460 50  0001 C CNN
-	1    8000 6200
-	1    0    0    -1  
-$EndComp
-Text GLabel 7250 6100 0    50   Input ~ 0
-RE-1A
-Text GLabel 7250 6300 0    50   Input ~ 0
-RE-1B
-$Comp
-L Device:R_Small R8
-U 1 1 5FB2C844
-P 7550 6300
-F 0 "R8" V 7354 6300 50  0000 C CNN
-F 1 "1k" V 7445 6300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7550 6300 50  0001 C CNN
-F 3 "~" H 7550 6300 50  0001 C CNN
-	1    7550 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 5FB2CE4E
-P 7400 6100
-F 0 "R4" V 7204 6100 50  0000 C CNN
-F 1 "1k" V 7295 6100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7400 6100 50  0001 C CNN
-F 3 "~" H 7400 6100 50  0001 C CNN
-	1    7400 6100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 6100 7500 6100
-Wire Wire Line
-	7250 6300 7450 6300
-Wire Wire Line
-	7650 6300 7700 6300
-Wire Wire Line
-	7300 6100 7250 6100
-$Comp
-L power:GND #PWR0111
-U 1 1 5FBE38D5
-P 6850 6200
-F 0 "#PWR0111" H 6850 5950 50  0001 C CNN
-F 1 "GND" H 6855 6027 50  0000 C CNN
-F 2 "" H 6850 6200 50  0001 C CNN
-F 3 "" H 6850 6200 50  0001 C CNN
-	1    6850 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Rotary_Encoder SW3
-U 1 1 5FC3F347
-P 8000 7150
-F 0 "SW3" H 8230 7196 50  0000 L CNN
-F 1 "Rotary_Encoder" H 8230 7105 50  0000 L CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm" H 7850 7310 50  0001 C CNN
-F 3 "~" H 8000 7410 50  0001 C CNN
-	1    8000 7150
-	1    0    0    -1  
-$EndComp
-Text GLabel 7250 7050 0    50   Input ~ 0
-RE-2A
-Text GLabel 7250 7250 0    50   Input ~ 0
-RE-2B
-$Comp
-L Device:R_Small R9
-U 1 1 5FC3F353
-P 7550 7250
-F 0 "R9" V 7354 7250 50  0000 C CNN
-F 1 "1k" V 7445 7250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7550 7250 50  0001 C CNN
-F 3 "~" H 7550 7250 50  0001 C CNN
-	1    7550 7250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R7
-U 1 1 5FC3F35D
-P 7400 7050
-F 0 "R7" V 7204 7050 50  0000 C CNN
-F 1 "1k" V 7295 7050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7400 7050 50  0001 C CNN
-F 3 "~" H 7400 7050 50  0001 C CNN
-	1    7400 7050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 7050 7500 7050
-Wire Wire Line
-	7250 7250 7450 7250
-Wire Wire Line
-	7650 7250 7700 7250
-Wire Wire Line
-	7300 7050 7250 7050
-$Comp
-L power:GND #PWR0112
-U 1 1 5FC3F36C
-P 6850 7150
-F 0 "#PWR0112" H 6850 6900 50  0001 C CNN
-F 1 "GND" H 6855 6977 50  0000 C CNN
-F 2 "" H 6850 7150 50  0001 C CNN
-F 3 "" H 6850 7150 50  0001 C CNN
-	1    6850 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 6200 7700 6200
-Wire Wire Line
-	6850 7150 7700 7150
 Text GLabel 2000 3450 2    50   Input ~ 0
 COL18
-Text GLabel 2000 2850 2    50   Input ~ 0
-RE-2A
-Text GLabel 2000 3050 2    50   Input ~ 0
-RE-2B
+Wire Wire Line
+	3500 5600 3500 6500
+Connection ~ 3500 6500
 $EndSCHEMATC
